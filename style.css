@@ -37,7 +37,7 @@
     overflow-x:hidden;
   }
   img{display:block;max-width:100%;}
-  a{color:inherit;}
+  a{color:var(--green);}
   ::selection{background:var(--green-glow);color:#0a0a0a;}
 
   .wrap{
@@ -53,10 +53,6 @@
     background:var(--white);
     opacity:.9;
     border-radius:2px;
-  }
-
-  .green-link {
-    color: var(--green);
   }
 
   /* ---------- Buttons ---------- */
