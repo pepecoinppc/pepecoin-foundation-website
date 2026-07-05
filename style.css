@@ -56,7 +56,7 @@
   }
 
   .green-link {
-    color: --green;
+    color: var(--green);
   }
 
   /* ---------- Buttons ---------- */
